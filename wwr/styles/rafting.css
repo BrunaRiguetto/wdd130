@@ -106,6 +106,20 @@ article {
     margin: 10px 10px 10px 10px;
 }
 
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.history-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .adventure-gallery {
   display: flex;
   justify-content: space-between;
